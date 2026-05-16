@@ -6,7 +6,6 @@
 **[ 🇦🇷 Español](#-español) · [ 🇺🇸 English](#-english)**
 
 ![Status](https://img.shields.io/badge/status-en%20desarrollo-f0a500?style=flat-square)
-![Phase](https://img.shields.io/badge/Fase%201-Full%20Stack-5dcaa5?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
