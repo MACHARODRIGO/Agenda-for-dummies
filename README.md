@@ -14,66 +14,6 @@
 
 ---
 
-## 🇺🇸 English
-
-### What is this?
-
-Not just a planner. A **personal second PhD**.
-
-This project was born from a simple idea: instead of using an existing productivity tool, **build one from scratch** — and make that building process the learning itself.
-
-Every line of code written to make the agenda work is a new technology understood. Every bug fixed is a concept that sticks.
-
-### 🎯 The end goal
-
-Becoming a high-level professional across three worlds at once:
-
-- 🧬 **Bioinformatics** — NGS, proteomics, phytopathology, modern workflows
-- 💻 **Full Stack Development** — FastAPI, SQL, JS, React, web security
-- 🤖 **Machine Learning & AI** — from real mathematical foundations up
-
-### 🛡️ The core mechanic — Gatekeepers
-
-The agenda locks all study tasks until two daily habits are completed:
-
-| Habit | Time |
-| :--- | :--- |
-| 🏃 Morning exercise | 20–30 min |
-| 🗣️ Language practice | 20–30 min |
-
-No habits → no access. Simple.
-
-### 🗺️ Roadmap (9 phases)
-
-```
-✅ Phase 0 — FastAPI + basic HTML
-🔥 Phase 1 — Vanilla JavaScript (DOM, events)    ← we are here
-   Phase 2 — Advanced CSS (Flexbox, Grid)
-   Phase 3 — FastAPI endpoints + fetch()
-   Phase 4 — SQL with SQLite
-   Phase 5 — MySQL in production
-   Phase 6 — Data analysis with Python and R
-   Phase 7 — JWT authentication + web security
-   Phase 8 — React
-   Phase 9 — Docker + VPS deploy
-```
-
-### 🌐 Project language
-
-> This project is currently developed in **Spanish** as the native language of its author.
-> A future goal is to translate it into **English** and possibly a third language —
-> in parallel with the language learning that is already part of the project itself.
-
----
-
-<div align="center">
-
-Made with 🧉 in Argentina · [@MACHARODRIGO](https://github.com/MACHARODRIGO)
-
-*"No short-term goals. This is a second PhD."*
-
----
-
 ## 🇦🇷 Español
 
 ### ¿Qué es esto?
@@ -134,3 +74,67 @@ Sin hábitos → sin acceso. Simple.
 > en paralelo con el aprendizaje de idiomas que forma parte del propio proyecto.
 
 </div>
+
+
+---
+
+## 🇺🇸 English
+
+### What is this?
+
+Not just a planner. A **personal second PhD**.
+
+This project was born from a simple idea: instead of using an existing productivity tool, **build one from scratch** — and make that building process the learning itself.
+
+Every line of code written to make the agenda work is a new technology understood. Every bug fixed is a concept that sticks.
+
+### 🎯 The end goal
+
+Becoming a high-level professional across three worlds at once:
+
+- 🧬 **Bioinformatics** — NGS, proteomics, phytopathology, modern workflows
+- 💻 **Full Stack Development** — FastAPI, SQL, JS, React, web security
+- 🤖 **Machine Learning & AI** — from real mathematical foundations up
+
+### 🛡️ The core mechanic — Gatekeepers
+
+The agenda locks all study tasks until two daily habits are completed:
+
+| Habit | Time |
+| :--- | :--- |
+| 🏃 Morning exercise | 20–30 min |
+| 🗣️ Language practice | 20–30 min |
+
+No habits → no access. Simple.
+
+### 🗺️ Roadmap (9 phases)
+
+```
+✅ Phase 0 — FastAPI + basic HTML
+🔥 Phase 1 — Vanilla JavaScript (DOM, events)    ← we are here
+   Phase 2 — Advanced CSS (Flexbox, Grid)
+   Phase 3 — FastAPI endpoints + fetch()
+   Phase 4 — SQL with SQLite
+   Phase 5 — MySQL in production
+   Phase 6 — Data analysis with Python and R
+   Phase 7 — JWT authentication + web security
+   Phase 8 — React
+   Phase 9 — Docker + VPS deploy
+```
+
+### 🌐 Project language
+
+> This project is currently developed in **Spanish** as the native language of its author.
+> A future goal is to translate it into **English** and possibly a third language —
+> in parallel with the language learning that is already part of the project itself.
+
+---
+
+<div align="center">
+
+Made with 🧉 in Argentina · [@MACHARODRIGO](https://github.com/MACHARODRIGO)
+
+*"No short-term goals. This is a second PhD."*
+
+---
+
