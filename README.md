@@ -6,7 +6,11 @@
 **[ 🇦🇷 Español](#-español) · [ 🇺🇸 English](#-english)**
 
 ![Status](https://img.shields.io/badge/status-en%20desarrollo-f0a500?style=flat-square)
-![Phase](https://img.shields.io/badge/fase%20actual-1%20%E2%80%94%20JavaScript%20puro-5dcaa5?style=flat-square)
+![Phase](https://img.shields.io/badge/Fase%201-Full%20Stack-5dcaa5?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Stack](https://img.shields.io/badge/stack-FastAPI%20%7C%20HTML%20%7C%20CSS%20%7C%20JS%20%7C%20SQLite-7ec8e3?style=flat-square)
 ![Lang](https://img.shields.io/badge/idioma-Español%20%F0%9F%87%A6%F0%9F%87%B7-ce9178?style=flat-square)
 
