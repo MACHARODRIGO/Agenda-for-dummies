@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Plan - Agenda</title>
+    <style>
+        /* CSS Básico - Pilar de Diseño */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .section { margin-bottom: 20px; }
+        .gatekeeper { background: #e8f4fd; border-left: 5px solid #3498db; padding: 10px; margin-bottom: 10px; }
+        .pilar { opacity: 0.5; cursor: not-allowed; } /* Esto simula el bloqueo */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Master Plan: Agenda</h1>
+        
+        <div class="section">
+            <h3>🛡️ Gatekeepers (Hábitos Diarios)</h3>
+            <div class="gatekeeper">
+                <input type="checkbox" id="deporte"> <label for="deporte">Deporte (20-30 min)</label>
+            </div>
+            <div class="gatekeeper">
+                <input type="checkbox" id="idioma"> <label for="idioma">Práctica de Idioma (20-30 min)</label>
+            </div>
+        </div>
+
+        <div class="section pilar">
+            <h3>🚀 Objetivos Profesionales</h3>
+            <input type="checkbox" disabled> <label>Aprender FastAPI Avanzado</label><br>
+            <input type="checkbox" disabled> <label>Configurar MySQL</label>
+        </div>
+    </div>
+    <script>
+        // 1. Agarrás los dos gatekeepers
+        const checkDeporte = document.querySelector('#deporte')
+        const checkIdioma  = document.querySelector('#idioma')
+        // 2. Agarrás los checkboxes que querés bloquear
+         // querySelectorAll devuelve TODOS los que matcheen, no solo el primero
+        const tareasEstudio = document.querySelectorAll('.pilar input')
+        // 3. Escribís la función que evalúa el estado
+        function evaluarGatekeepers() {
+        const ambosCompletos = checkDeporte.checked && checkIdioma.checked
+            // 4. Iterás sobre las tareas y las habilitás o no
+            tareasEstudio.forEach(function(tarea) {
+                tarea.disabled = !ambosCompletos
+                })
+
+             // 5. Cambiás la opacidad de la sección entera
+            const seccionEstudio = document.querySelector('.pilar')
+            seccionEstudio.style.opacity = ambosCompletos ? '1' : '0.4'
+            }
+
+// 6. Conectás la función a los dos eventos
+checkDeporte.addEventListener('change', evaluarGatekeepers)
+checkIdioma.addEventListener('change',  evaluarGatekeepers)
+    </script>
+<!-- El script va ANTES de esta línea para que el HTML ya esté cargado cuando se ejecute el JS-->
+</body> 
+</html>
+
